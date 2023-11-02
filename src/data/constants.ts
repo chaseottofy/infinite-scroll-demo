@@ -7,6 +7,12 @@ const MAX_POSTS = 40;
 const CARD_STYLE = {
   width: '100%',
   marginTop: '1rem',
+  lineHeight: '1 !important',
+  maxHeight: `${POST_CARD_HEIGHT}px`,
+  minHeight: `${POST_CARD_HEIGHT}px`,
+  height: '100% !important',
+  border: '1px solid #27272a',
+  overflow: 'hidden',
 } as React.CSSProperties;
 
 const GRID_STYLE = {

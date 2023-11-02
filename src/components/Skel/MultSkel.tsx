@@ -1,16 +1,12 @@
-import buildArray from '../../utils/build-array';
+import buildArray from '../../utils/buildArray';
 
 import Skel from './Skel';
 
-const MultSkel = (
-  skelCount: number,
-  setStyle: React.CSSProperties,
-  height: number,
-) => {
+const MultSkel = (skelCount: number) => {
   return (
     buildArray(skelCount).map((_, i) => {
       // eslint-disable-next-line react/no-array-index-key
-      return (<div style={setStyle} key={i}>{Skel(height)}</div>);
+      return (<div key={i}>{Skel()}</div>);
     })
   );
 };
