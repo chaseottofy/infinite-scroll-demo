@@ -1,11 +1,13 @@
 {
-  "name": "vp",
+  "name": "infinite-scroll-demo",
+  "homepage": "https://chaseottofy.github.io/infinite-scroll-demo/",
   "version": "0.0.0",
   "private": true,
   "description": "description",
   "keywords": [
     "ottofy",
-    "chaseottofy"
+    "chaseottofy",
+    "infinite-scroll-demo"
   ],
   "license": "MIT",
   "author": "chase ottofy",
