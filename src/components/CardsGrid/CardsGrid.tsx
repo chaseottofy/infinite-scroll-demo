@@ -61,7 +61,7 @@ const CardsGrid = () => {
     // fetch either full amount or remaining
     const diff = MAX_POSTS - jsonData.length;
     const testLength = diff < numPosts ? diff : numPosts;
-    
+
     if (testLength <= 0) {
       setHasMore(false);
       return null;
