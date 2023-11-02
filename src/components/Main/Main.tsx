@@ -1,4 +1,4 @@
-import CardsGrid from '../Cards/CardsGrid';
+import CardsGrid from '../CardsGrid/CardsGrid';
 
 import styles from './Main.module.css';
 

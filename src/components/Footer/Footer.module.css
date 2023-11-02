@@ -7,11 +7,11 @@
 }
 
 .content {
-  max-width: var(--max-width-md);
-  margin: 0 auto;
-  width: 100%;
-  padding: 0 var(--p-8);
-  height: 100%;
   display: flex;
+  width: 100%;
+  max-width: var(--max-width-md);
+  height: 100%;
   align-items: center;
+  padding: 0 var(--p-8);
+  margin: 0 auto;
 }
