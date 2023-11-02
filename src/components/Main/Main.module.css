@@ -1,0 +1,15 @@
+.main {
+  display:flex;
+  overflow: hidden;
+  width: 100%;
+  max-width: var(--max-width-md);
+  height: auto;
+  min-height: var(--main-min-height);
+  padding: 0 var(--p-6);
+  margin: 0 auto;
+}
+
+.container {
+  width: 200px;
+  height: 200px;
+}

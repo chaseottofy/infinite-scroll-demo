@@ -1,0 +1,8 @@
+dist/*
+vite.config.ts
+/node_modules/
+dev/
+coverage/
+test/
+posts/
+scripts/

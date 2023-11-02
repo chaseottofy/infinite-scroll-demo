@@ -1,0 +1,17 @@
+.header {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  height: var(--header-height);
+  align-items: center;
+  border-bottom: var(--border1);
+  margin: 0 auto;
+}
+
+.content {
+  max-width: var(--max-width-md);
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 var(--p-8);
+}
